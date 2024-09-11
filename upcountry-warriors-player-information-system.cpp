@@ -2715,7 +2715,6 @@ void availableplayers() {
 
 			getDataagain.close();
 
-
 		}
 		checkplayeragain.close();
 
