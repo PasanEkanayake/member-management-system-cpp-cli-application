@@ -69,7 +69,7 @@ int main() {
 	case '3': forgotPassword(); break;
 	case '4': system("cls"); exit(0); break;
 	default: systemHeader();
-			 cout << "\n\n\t\t\t\tYour response is invalid. Please try again.\n\n";
+			 cout << "\n\n\t\t\t\tYour have entered an invalid input. Please try again.\n\n";
 			 transition();
 			 main();
 			 break;
