@@ -89,7 +89,7 @@ void systemHeader() {
 
 	cout << "\t\t\t,___________________________________________________________________________________,\n";
 	cout << "\t\t\t|                        U P C O U N T R Y   W A R R I O R S                        |\n";
-	cout << "\t\t\t|                          Player Information System (PIS)                          |\n";
+	cout << "\t\t\t|                             Player Information System                             |\n";
 	cout << "\t\t\t|___________________________________________________________________________________|\n\n\n\n";
 
 }
