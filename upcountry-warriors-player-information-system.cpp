@@ -200,7 +200,7 @@ void login() {
 		else {
 
 			systemHeader();
-			cout << "\n\n\n\t\t\t\tYour response is invalid. So you will be redirected to the initial page.";
+			cout << "\n\n\n\t\t\t\tYour response is invalid and will be redirected to the main page.";
 			transition();
 			main();
 
