@@ -510,7 +510,7 @@ void dashboard() {
 	case '7': logout(); break;
 	case '8': exit(0); break;
 	default: systemHeader();
-		cout << "\n\n\t\t\t\tYour response is invalid.\n\n\t\t\t\tPlease select an option available in the DASHBOARD.\n\n";
+		cout << "\n\n\t\t\t\tYour entered response is invalid.\n\n\t\t\t\tPlease select an option mentioned in the DASHBOARD.\n\n";
 		transition();
 		dashboard();
 		break;
