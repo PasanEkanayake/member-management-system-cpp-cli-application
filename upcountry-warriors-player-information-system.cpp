@@ -162,7 +162,7 @@ void login() {
 
 		systemHeader();
 
-		cout << "\t\t\t\t\tYou have logged in successfully.\n\n";
+		cout << "\t\t\t\t\tYou have successfully logged into the Player Information System.\n\n";
 		transition();
 
 		systemHeader();
