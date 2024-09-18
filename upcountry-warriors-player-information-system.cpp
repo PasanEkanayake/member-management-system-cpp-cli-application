@@ -146,7 +146,7 @@ void login() {
 
 	systemHeader();
 
-	cout << "\t\t\t\tPlease enter your Username and Password to LOGIN.\n\n\n";
+	cout << "\t\t\t\tPlease enter your USERNAME and PASSWORD to LOGIN to the system.\n\n\n";
 	cout << "\t\t\t\t\tUSERNAME\t:  ";
 	getline(cin >> ws, username);
 	cout << "\n\t\t\t\t\tPASSWORD\t:  ";
