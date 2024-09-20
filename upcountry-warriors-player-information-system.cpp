@@ -245,7 +245,7 @@ void registration() {
 
 				cout << "\n\n\t\t\t\tEntered USERNAME already exist. Please try again with a different USERNAME.\n\n\n";
 				cout << "\t\t\t\tPress '1' to try REGISTER again.";
-				cout << "\n\n\t\t\t\tPress '2' to Go to the initial page.";
+				cout << "\n\n\t\t\t\tPress '2' to Go to the main page.";
 				cout << "\n\n\n\n\t\t\t\tYour Response\t:  ";
 				cin >> tryAgain;
 				cout << endl;
@@ -266,7 +266,7 @@ void registration() {
 				else {
 
 					systemHeader();
-					cout << "\n\n\n\t\t\t\tYour response is invalid and you will be redirected to the initial page.";
+					cout << "\n\n\n\t\t\t\tYour response is invalid and you will be redirected to the main page.";
 					transition();
 					main();
 					break;
@@ -282,7 +282,7 @@ void registration() {
 
 				cout << "\n\n\t\t\t\tEntered PASSWORD already exist. Please try again with a different PASSWORD.\n\n\n";
 				cout << "\t\t\t\tPress '1' to try REGISTER again.";
-				cout << "\n\n\t\t\t\tPress '2' to Go to the initial page.";
+				cout << "\n\n\t\t\t\tPress '2' to Go to the main page.";
 				cout << "\n\n\n\n\t\t\t\tYour Response\t:  ";
 				cin >> tryAgain;
 				cout << endl;
@@ -303,7 +303,7 @@ void registration() {
 				else {
 
 					systemHeader();
-					cout << "\n\n\n\t\t\t\tYour response is invalid and you will be redirected to the initial page.";
+					cout << "\n\n\n\t\t\t\tYour response is invalid and you will be redirected to the main page.";
 					transition();
 					main();
 					break;
@@ -319,7 +319,7 @@ void registration() {
 
 				cout << "\n\n\t\t\t\tEntered EMAIL already exist. Please try again with a new EMAIL.\n\n\n";
 				cout << "\t\t\t\tPress '1' to try REGISTER again.";
-				cout << "\n\n\t\t\t\tPress '2' to Go to the initial page.";
+				cout << "\n\n\t\t\t\tPress '2' to Go to the main page.";
 				cout << "\n\n\n\n\t\t\t\tYour Response\t:  ";
 				cin >> tryAgain;
 				cout << endl;
@@ -340,7 +340,7 @@ void registration() {
 				else {
 
 					systemHeader();
-					cout << "\n\n\n\t\t\t\tYour response is invalid and you will be redirected to the initial page.";
+					cout << "\n\n\n\t\t\t\tYour response is invalid and you will be redirected to the main page.";
 					transition();
 					main();
 					break;
@@ -510,7 +510,7 @@ void dashboard() {
 	case '7': logout(); break;
 	case '8': exit(0); break;
 	default: systemHeader();
-		cout << "\n\n\t\t\t\tYour entered response is invalid.\n\n\t\t\t\tPlease select an option mentioned in the DASHBOARD.\n\n";
+		cout << "\n\n\t\t\t\tYour response is invalid.\n\n\t\t\t\tPlease select an option mentioned in the DASHBOARD.\n\n";
 		transition();
 		dashboard();
 		break;
